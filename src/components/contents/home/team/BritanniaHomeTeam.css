@@ -1,0 +1,10 @@
+.BritanniaHomeTeam {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: #c91f44;
+}
+
+.BritanniaHomeTeam .Title {
+    font-weight: bold;
+}

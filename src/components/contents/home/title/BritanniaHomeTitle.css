@@ -1,0 +1,19 @@
+.BritanniaHomeTitle {
+    background-image: url(../../../../images/london.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.BritanniaHomeTitle .Title {
+    text-align: left;
+    color: aliceblue;
+    padding-top: 20rem;
+}
+
+.BritanniaHomeTitle .Subtext {
+    text-align: left;
+    color: aliceblue;
+}
+  
