@@ -1,0 +1,42 @@
+.Master {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.Master .Title {
+    text-align: center;
+    color: #012169;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.Master .Steps {
+    margin-top: 2rem;
+}
+
+.Master .Step {
+    color: cornsilk;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Master .Step .Number {
+    font-size: 1.4rem;
+    background-color: #012169 ;
+}
+
+.Master .Step .Subtitle {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    background-color: #c91f44;
+}
+
+.Master .Step .Detail {
+    padding-top: 0.5rem;
+    text-align: left;
+    color: black;
+    height: 3.7rem;
+    font-size: 0.8rem;
+}
+
