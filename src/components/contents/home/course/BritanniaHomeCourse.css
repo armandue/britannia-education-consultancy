@@ -1,0 +1,58 @@
+.Course {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    background-color: #eef1ef;
+}
+
+.Course .Title{
+    color: cornsilk;
+}
+
+.Course .Title .Subtitle{
+    background-color: #012169;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.Course .Title .CourseList{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.Course .Title .CourseList .CourseName {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    background-color: #c91f44;
+}
+
+.Course .Title .Description {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: larger;
+    background-color: #012169;
+}
+
+.Course .Display {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #012169;
+}
+
+.Course .Display .CaseShow {
+    margin-bottom: 0px;
+}
+
+.Course .Display .CourseCase {
+    width: 327px;
+    height: 184px;
+    margin: 0.2rem;
+}
+
+.Course .Display .FirstLine {
+    margin-top: 3rem;
+}

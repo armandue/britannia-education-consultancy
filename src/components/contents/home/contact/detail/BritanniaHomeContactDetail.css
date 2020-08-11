@@ -1,0 +1,10 @@
+.ContactDetail .Info {
+    border-bottom: crimson solid 0.7px;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.ContactDetail .Info p{
+    margin-bottom: 5px;
+}

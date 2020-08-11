@@ -12,7 +12,7 @@ function BritanniaHomeTeam() {
     <div className='BritanniaHomeTeam'>
       <Row>
         <Col span={24}>
-          <img className='Head' src={tan} alt='CEO'/>
+          <img className='Head' src={tan} alt='CEO：Tan P Williams'/>
         </Col>
         <Col span={9}></Col>
         <Col span={6}>
@@ -26,7 +26,7 @@ function BritanniaHomeTeam() {
         <Col span={6}>
             <Row>
                 <Col span={24}>
-                    <img className='Head' src={xie} alt='CEO'/>
+                    <img className='Head' src={xie} alt='博士申请部运营主管：谢耀枢'/>
                 </Col>
                 <Col span={3}></Col>
                 <Col span={18}>
@@ -40,7 +40,7 @@ function BritanniaHomeTeam() {
         <Col span={8}>
             <Row>
                 <Col span={24}>
-                    <img className='Head' src={cui} alt='CEO'/>
+                    <img className='Head' src={cui} alt='硕士申请部运营主管：崔凡'/>
                 </Col>
                 <Col span={3}></Col>
                 <Col span={18}>
@@ -54,7 +54,7 @@ function BritanniaHomeTeam() {
         <Col span={6}>
             <Row>
                 <Col span={24}>
-                    <img className='Head' src={yan} alt='CEO'/>
+                    <img className='Head' src={yan} alt='市场部运营主管：闫雨轩'/>
                 </Col>
                 <Col span={3}></Col>
                 <Col span={18}>

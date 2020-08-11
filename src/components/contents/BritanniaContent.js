@@ -6,6 +6,7 @@ import BritanniaHomePhd from './home/phd/BritanniaHomePhd';
 import BritanniaHomeMaster from './home/master/BritanniaHomeMaster';
 import BritanniaHomeCourse from './home/course/BritanniaHomeCourse';
 import BritanniaHomeTeam from './home/team/BritanniaHomeTeam';
+import BritanniaHomeContact from './home/contact/BritanniaHomeContact';
 
 function BritanniaContent() {
   const { Content } = Layout;
@@ -17,6 +18,7 @@ function BritanniaContent() {
           <BritanniaHomeMaster />
           <BritanniaHomeCourse />
           <BritanniaHomeTeam />
+          <BritanniaHomeContact />
         </Content>
     </div>
   );

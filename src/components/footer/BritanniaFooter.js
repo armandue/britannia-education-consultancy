@@ -5,7 +5,7 @@ function BritanniaFooter() {
   const { Footer } = Layout;
   return (
     <div >
-        <Footer>BritanniaFooter</Footer>
+        <Footer><small>&copy; Copyright 2020, Britannia Education Consultancy Ltd</small></Footer>
     </div>
   );
 }
