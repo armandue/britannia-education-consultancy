@@ -11,7 +11,7 @@ function BritanniaHomeCourse() {
   return (
     <div className='Course'>
         <Row>
-            <Col span={3}></Col>
+            <Col xl={3} xxl={5}></Col>
             <Col span={19}>
                 <Row>
                     <Col span={8} className='Title'>
@@ -35,13 +35,13 @@ function BritanniaHomeCourse() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col span={16} className='Display'>
+                    <Col xl={16} xxl={13} className='Display'>
                         <Row>
                             <Col span={1}></Col>
-                            <Col span={11}>
+                            <Col xl={11} xxl={8}>
                             <img className='CourseCase FirstLine' src={course1} alt='如何在硕士阶段规划Phd申请'/>
                             </Col>
-                            <Col span={11}>
+                            <Col xl={11} xxl={8}>
                                 <p className='CaseShow'>CONTENT THEME</p>
                                 <p className='CaseShow'>DISPLAY</p>
                                 <p className='CaseShow'>内容主题展示</p>
@@ -49,16 +49,16 @@ function BritanniaHomeCourse() {
                         </Row>
                         <Row>
                             <Col span={1}></Col>
-                            <Col span={11}>
+                            <Col xl={11} xxl={8}>
                                 <img className='CourseCase' src={course2} alt='申请Phd时间节点与申请过程中的问题'/>
                             </Col>
-                            <Col span={11}>
+                            <Col xl={11} xxl={8}>
                                 <img className='CourseCase' src={course3} alt='如何选择自己的研究方向'/>
                             </Col>
                         </Row>
                         <Row>
-                            <Col span={12}></Col>
-                            <Col span={11}>
+                            <Col xl={12} xxl={9}></Col>
+                            <Col xl={11} xxl={8}>
                                 <img className='CourseCase' src={course4} alt='2021 fall 硕士申请季分析以及申请中的一些重要问题'/>
                             </Col>
                         </Row>             

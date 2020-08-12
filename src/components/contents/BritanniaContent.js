@@ -1,25 +1,16 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Route } from "react-router-dom";
 
-import BritanniaHomeTitle from './home/title/BritanniaHomeTitle';
-import BritanniaHomePhd from './home/phd/BritanniaHomePhd';
-import BritanniaHomeMaster from './home/master/BritanniaHomeMaster';
-import BritanniaHomeCourse from './home/course/BritanniaHomeCourse';
-import BritanniaHomeTeam from './home/team/BritanniaHomeTeam';
-import BritanniaHomeContact from './home/contact/BritanniaHomeContact';
+import './BritanniaContent.css';
+
+import BritanniaHome from './home/BritanniaHome';
+import BritanniaAboutUs from './about/BritanniaAboutUs';
 
 function BritanniaContent() {
-  const { Content } = Layout;
   return (
-    <div >
-        <Content>
-          <BritanniaHomeTitle />
-          <BritanniaHomePhd />
-          <BritanniaHomeMaster />
-          <BritanniaHomeCourse />
-          <BritanniaHomeTeam />
-          <BritanniaHomeContact />
-        </Content>
+    <div className='Content'>
+        <Route path="/" exact component={BritanniaHome} />
+        <Route path="/about-us" component={BritanniaAboutUs} />
     </div>
   );
 }

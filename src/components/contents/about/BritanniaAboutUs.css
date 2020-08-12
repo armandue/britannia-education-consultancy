@@ -1,0 +1,61 @@
+.AboutUs {
+    background-color: #eef1ef;
+}
+
+.AboutUs .Highlight {
+    color: #c91f44;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.AboutUs .Company {
+    background-image: url(../../../images/business-meeting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.AboutUs .Company .Title {
+    text-align: left;  
+    padding-top: 20rem;
+    color: #c91f44;
+}
+
+.AboutUs .Company .Subtitle {
+    color: aliceblue;
+    font-size: 1.3rem;
+    border-left: #c91f44 solid 1px;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.AboutUs .Description {
+    margin-top: 0.4rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.AboutUs .CoreAdvantage {
+    margin-top: 2rem;
+}
+
+.AboutUs .CoreAdvantage .Title {
+    color: #c91f44;
+}
+
+.AboutUs .CoreAdvantage .Subtitle {
+    color: #012169;
+    font-size: 1rem;
+    border-left: #c91f44 solid 1px;
+    margin-left: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+.AboutUs .Advantage .Number {
+    color: #c91f44;
+    line-height: 3rem;
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}

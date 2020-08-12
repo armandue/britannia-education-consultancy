@@ -1,6 +1,6 @@
 import React from 'react';
 import './BritanniaHomePhd.css';
-import { Row, Col, List, Avatar } from 'antd';
+import { Row, Col, List } from 'antd';
 import { CaretRightOutlined, CaretLeftOutlined, CaretDownOutlined } from '@ant-design/icons';
 
 const data = [
