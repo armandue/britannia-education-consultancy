@@ -128,19 +128,19 @@ function BritanniaHomePhd() {
         <Row>
             <Col span={5}></Col>
             <Col span={13} className='List'>
-            <List
-                itemLayout="horizontal"
-                dataSource={data}
-                renderItem={item => (
-                <List.Item>
-                    <List.Item.Meta
-                    avatar={<CaretRightOutlined className='Avatar' />}
-                    title={<p className='ListTitle'>{item.title}</p>}
-                    description={item.description}
-                    />
-                </List.Item>
-                )}
-            />
+                <List
+                    itemLayout="horizontal"
+                    dataSource={data}
+                    renderItem={item => (
+                    <List.Item>
+                        <List.Item.Meta
+                        avatar={<CaretRightOutlined className='Avatar' />}
+                        title={<p className='ListTitle'>{item.title}</p>}
+                        description={item.description}
+                        />
+                    </List.Item>
+                    )}
+                />
             </Col>
         </Row>
     </div>

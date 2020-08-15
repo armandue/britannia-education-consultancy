@@ -25,6 +25,7 @@
 .Course .Title .CourseList .CourseName {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
     background-color: #c91f44;
 }
 

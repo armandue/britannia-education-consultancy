@@ -1,0 +1,32 @@
+.PhdCases {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.PhdCases .Title {
+    text-align: right;
+}
+
+.PhdCases .Title .English {
+    margin-top: 2rem;
+    color: #c91f44;
+    text-align: right;
+}
+
+.PhdCases .Title .Chinese {
+    margin-top: 0;
+    color: #c91f44;
+    text-align: right;
+    padding-bottom: 0.7rem;
+    border-bottom: #c91f44 1px solid;
+}
+
+.PhdCases .Case {
+    margin: 1.5rem;
+    color: #c91f44;
+}
+
+.PhdCases .Case .Title {
+    font-weight: bolder;
+    color: #012169;
+}

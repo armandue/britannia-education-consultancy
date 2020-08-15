@@ -1,0 +1,73 @@
+.Master {
+    background-color: #eef1ef;
+}
+
+.Master .SystemTile {
+    text-align: right;
+}
+
+.Master .SystemContent {
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+
+.Master .SystemTile .English {
+    color: #c91f44;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0.4rem;
+}
+
+.Master .SystemTile .Chinese {
+    color: #012169;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.Master .SystemTile .RequirementTitle {
+    border-top: #c91f44 1px solid;
+    padding-top: 0.3rem;
+    font-weight: bolder;
+}
+
+.Master .Requirements {
+    background-color: #012169;
+    padding: 0.5rem;
+}
+
+.Master .Requirements .Title {
+    color: #c91f44;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.Master .Requirements .Description {
+    color: #eef1ef;
+    font-weight: bolder;
+}
+
+.Master .Advantages .English {
+    color: #c91f44;
+}
+
+.Master .Advantages .Chinese {
+    padding-bottom: 0.3rem;
+    font-weight: bolder;
+    font-size: larger;
+    color: #012169;
+    margin-bottom: 1rem;
+}
+
+.Master .Advantages .Icon {
+    margin-right: 0.3rem;
+    color: #c91f44;
+}
+
+.Master .Advantages .Title {
+    margin-top: 1rem;
+    text-align: left;
+    color: #012169;;
+}

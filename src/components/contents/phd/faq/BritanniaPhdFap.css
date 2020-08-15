@@ -1,0 +1,23 @@
+.PhdFaq {
+    margin-top: 1.5rem;
+    background-color: #c91f44;
+    padding-bottom: 2rem;
+}
+
+.PhdFaq .Title {
+    text-align: right;
+}
+
+.PhdFaq .Title .English {
+    margin-top: 2rem;
+    color: #eef1ef;
+    text-align: right;
+}
+
+.PhdFaq .Title .Chinese{
+    margin-top: 0;
+    color: #eef1ef;
+    text-align: right;
+    padding-bottom: 0.7rem;
+    border-bottom: #eef1ef 1px solid;
+}

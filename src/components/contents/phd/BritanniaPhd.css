@@ -1,0 +1,82 @@
+.Phd {
+    background-color: #eef1ef;
+}
+
+.Phd .SystemTile {
+    text-align: right;
+}
+
+.Phd .SystemTile .English {
+    color: #c91f44;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0.4rem;
+}
+
+.Phd .SystemTile .Chinese {
+    color: #012169;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.Phd .SystemTile .AdvantageTitle {
+    border-top: #c91f44 1px solid;
+    padding-top: 0.3rem;
+    font-weight: bolder;
+}
+
+.Phd .SystemTile .RequirementTitle {
+    border-top: #c91f44 1px solid;
+    padding-top: 0.3rem;
+    font-weight: bolder;
+}
+
+.Phd .Advantages .Index {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.Phd .Advantages .ListTitle {
+    font-size: larger;
+}
+
+.Phd .Requirements {
+    background-color: #012169;
+    padding: 0.5rem;
+}
+
+.Phd .Requirements .Title {
+    color: #c91f44;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.Phd .Requirements .Description {
+    color: #eef1ef;
+    font-weight: bolder;
+}
+
+.Phd .Timeline .English {
+    color: #c91f44;
+}
+
+.Phd .Timeline .Chinese {
+    padding-bottom: 0.3rem;
+    font-weight: bolder;
+    font-size: larger;
+    color: #012169;
+    margin-bottom: 1rem;
+}
+
+.Phd .Timeline .Icon {
+    margin-right: 0.3rem;
+    color: #c91f44;
+}
+
+.Phd .Timeline .Title {
+    margin-top: 1rem;
+    text-align: left;
+    color: #012169;;
+}
