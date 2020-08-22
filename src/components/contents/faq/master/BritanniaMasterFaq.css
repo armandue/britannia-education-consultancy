@@ -1,6 +1,6 @@
 .MasterFaq {
-    margin-top: 1.5rem;
-    background-color: #c91f44;
+    padding-top: 1.5rem;
+    background-color: #eef1ef;
     padding-bottom: 2rem;
 }
 
@@ -10,14 +10,14 @@
 
 .MasterFaq .Title .English {
     margin-top: 2rem;
-    color: #eef1ef;
+    color: #c91f44;
     text-align: right;
 }
 
 .MasterFaq .Title .Chinese{
     margin-top: 0;
-    color: #eef1ef;
+    color: #c91f44;
     text-align: right;
     padding-bottom: 0.7rem;
-    border-bottom: #eef1ef 1px solid;
+    border-bottom: #c91f44 1px solid;
 }

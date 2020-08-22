@@ -16,6 +16,7 @@ function BritanniaHeader(props) {
                 <Menu.Item key="/about-us"><Link to='/about-us'>关于我们</Link></Menu.Item>
                 <Menu.Item key="/phd"><Link to='/phd'>PhD精英培养计划</Link></Menu.Item>
                 <Menu.Item key="/master"><Link to='/master'>硕士无忧申请</Link></Menu.Item>
+                <Menu.Item key="/faq"><Link to='/faq'>Application FAQ</Link></Menu.Item>
             </Menu>
         </Header>
     </div>

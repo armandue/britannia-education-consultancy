@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    margin-bottom: 1.5rem;
 }
 
 .AboutUs .Company .Title {
@@ -58,4 +59,25 @@
     font-size: 2.3rem;
     font-weight: 800;
     margin-bottom: 1rem;
+}
+
+.AboutUs .Team .Title {
+    margin-top: 2rem;
+    color: #c91f44;
+}
+
+.AboutUs .Team .Subtitle {
+    color: #012169;
+    font-size: 1rem;
+    border-left: #c91f44 solid 1px;
+    margin-left: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+.AboutUs .Team .TutorList {
+    font-weight: bolder;
+}
+
+.AboutUs .Team .WriterList {
+    font-weight: bolder;
 }

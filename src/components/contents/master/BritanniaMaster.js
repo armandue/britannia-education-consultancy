@@ -3,7 +3,6 @@ import { Layout, Row, Col, List, Typography } from 'antd';
 import { CheckCircleOutlined} from '@ant-design/icons';
 
 import './BritanniaMaster.css';
-import BritanniaMasterFaq from './faq/BritanniaMasterFaq';
 import BritanniaMasterCases from './cases/BritanniaMasterCases';
 
 const { Content } = Layout;
@@ -114,7 +113,6 @@ function BritanniaMaster() {
                 </Col>
             </Row>
         </Content>
-        <BritanniaMasterFaq/>
         <BritanniaMasterCases/>
     </div>
   );
