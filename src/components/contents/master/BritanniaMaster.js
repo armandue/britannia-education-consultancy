@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Row, Col, List, Typography } from 'antd';
+import { Layout, Row, Col, Typography } from 'antd';
 import { CheckCircleOutlined} from '@ant-design/icons';
 
 import './BritanniaMaster.css';

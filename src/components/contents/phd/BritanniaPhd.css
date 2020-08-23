@@ -81,7 +81,7 @@
     color: #012169;;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
     .Phd .Timeline {
         padding-top: 3rem;
     }
