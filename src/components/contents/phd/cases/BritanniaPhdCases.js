@@ -63,7 +63,7 @@ function BritanniaPhdCases() {
                 </Col>
             </Row>
             <Row>
-                <Col offset={2} xl={20}>
+                <Col offset={2} xl={22} xxl={20}>
                     <Row>
                         {cases.map((item, i) =>
                             <Card
@@ -79,7 +79,7 @@ function BritanniaPhdCases() {
                 </Col>
             </Row>
             <Row>
-                <Col offset={3} xl={20}>
+                <Col offset={3} xxl={20} span={0}>
                     <img src={all} alt='PHD Offer 大合集'/>
                 </Col>
             </Row>

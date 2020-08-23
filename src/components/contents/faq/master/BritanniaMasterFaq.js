@@ -61,12 +61,12 @@ function BritanniaMasterFap() {
                 </Col>
             </Row>
             <Row>
-                <Col xl={12}>
+                <Col xl={{span:12, offset:0}} xs={{span:22, offset:1}}>
                     {faq.slice(0, 5).map((item, i) =>
                         <BritanniaMasterFaqItem item={item} key={i}/>
                     )}
                 </Col>
-                <Col xl={12}>
+                <Col xl={{span:12, offset:0}} xs={{span:22, offset:1}}>
                     {faq.slice(5).map((item, i) =>
                         <BritanniaMasterFaqItem item={item} key={i}/>
                     )}

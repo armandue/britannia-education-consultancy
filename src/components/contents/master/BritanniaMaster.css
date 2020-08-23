@@ -71,3 +71,9 @@
     text-align: left;
     color: #012169;;
 }
+
+@media only screen and (max-width: 500px) {
+    .Master .Advantages {
+        padding-top: 3rem;
+    }
+  }

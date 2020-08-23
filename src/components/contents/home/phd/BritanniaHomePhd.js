@@ -53,71 +53,71 @@ function BritanniaHomePhd() {
             </Col>
         </Row>
         <Row className='Steps'>
-            <Col span={5}></Col>
-            <Col span={14}>
+            <Col xl={5}></Col>
+            <Col xl={14} xs={0}>
                 <Row>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             确定<br/>申请团队
                         </p>
                     </Col>
-                    <Col span={2} className='Arrow'>
+                    <Col xl={2} className='Arrow'>
                         <CaretRightOutlined />
                     </Col>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             确定<br/>研究方向
                         </p>
                     </Col>
-                    <Col span={2} className='Arrow'>
+                    <Col xl={2} className='Arrow'>
                         <CaretRightOutlined />
                     </Col>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             5对1<br/>课程辅导
                         </p>
                     </Col>
-                    <Col span={2} className='Arrow'>
+                    <Col xl={2} className='Arrow'>
                         <CaretRightOutlined />
                     </Col>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             锚定<br/>大学与导师
                         </p>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={18}></Col>
+                    <Col xs={20} xl={18}></Col>
                     <Col span={4} className='Arrow'>
                         <CaretDownOutlined />
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             Online<br/>application
                         </p>
                     </Col>
-                    <Col span={2} className='Arrow'>
+                    <Col xl={2} className='Arrow'>
                         <CaretLeftOutlined />
                     </Col>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             面试培训
                         </p>
                     </Col>
-                    <Col span={2} className='Arrow'>
+                    <Col xl={2} className='Arrow'>
                         <CaretLeftOutlined />
                     </Col>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             套词技巧
                         </p>
                     </Col>
-                    <Col span={2} className='Arrow'>
+                    <Col xl={2} className='Arrow'>
                         <CaretLeftOutlined />
                     </Col>
-                    <Col span={4} className='Step'>
+                    <Col xl={4} className='Step'>
                         <p>
                             指导<br/>写作RP
                         </p>
@@ -126,8 +126,8 @@ function BritanniaHomePhd() {
             </Col>
         </Row>
         <Row>
-            <Col span={5}></Col>
-            <Col span={13} className='List'>
+            <Col xl={5} xs={1}></Col>
+            <Col xl={13} xs={22} className='List'>
                 <List
                     itemLayout="horizontal"
                     dataSource={data}

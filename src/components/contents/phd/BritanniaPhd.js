@@ -91,7 +91,7 @@ function BritanniaPhd() {
                         </Col>
                     </Row>
                     <Row className="Advantages">
-                        <Col offset={4} xl={18} xxl={18}>
+                        <Col xl={{span:18, offset:4}} xxl={{span:18, offset:4}} xs={{span:22, offset:1}}>
                             <List
                                 itemLayout="horizontal"
                                 dataSource={advantages}
@@ -117,7 +117,7 @@ function BritanniaPhd() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col offset={4} xl={18} className='Requirements'>
+                        <Col xl={{span:18, offset:4}} xs={{span:22, offset:1}} className='Requirements'>
                             {requirements.map((requirement, index) =>
                                 <p key={index}>
                                     <span className='Title'>{requirement.key}:</span>
@@ -127,7 +127,7 @@ function BritanniaPhd() {
                         </Col>
                     </Row>
                 </Col>
-                <Col xl={12} className='Timeline'>
+                <Col xl={{span:12, offset:0}} xs={{span:23, offset:1}} className='Timeline'>
                     <Row>
                         <Col span={24}>
                             <Title className='English'>PhD Timeline</Title>

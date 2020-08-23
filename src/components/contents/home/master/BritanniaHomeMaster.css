@@ -23,7 +23,7 @@
 
 .Master .Step .Number {
     font-size: 1.4rem;
-    background-color: #012169 ;
+    background-color: #012169;
 }
 
 .Master .Step .Subtitle {
@@ -41,3 +41,8 @@
     font-size: 0.8rem;
 }
 
+@media only screen and (max-width: 500px) {
+    .Master .Step .Detail {
+        padding-top: 0;
+    }
+  }

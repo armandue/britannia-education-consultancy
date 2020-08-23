@@ -60,7 +60,7 @@ function BritanniaMaster() {
                         </Col>
                     </Row>
                     <Row className="SystemContent">
-                        <Col offset={4} xl={18} xxl={18}>
+                        <Col xl={{span:18, offset:4}} xs={{span:22, offset:1}}>
                             <p>
                                 英国硕士主要分为授课型硕士与研究型硕士两种，前者是以上课教学为主，后者是以研究
                                 为主，大多数国内的学生都是申请的授课型研究生。授课式硕士研究生需要上课，写作业，参与
@@ -83,7 +83,7 @@ function BritanniaMaster() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col offset={4} xl={18} className='Requirements'>
+                        <Col xl={{span:18,offset:4}} xs={{span:22, offset:1}} className='Requirements'>
                             {requirements.map((requirement, index) =>
                                 <p key={index}>
                                     <span className='Title'>{requirement.key}:</span>
@@ -95,14 +95,14 @@ function BritanniaMaster() {
                 </Col>
                 <Col xl={12} className='Advantages'>
                     <Row>
-                        <Col span={24}>
+                        <Col span={24} xs={{span:22, offset:1}}>
                             <Title className='English'>Why Choose Us</Title>
                             <p className='Chinese'>为什么选择BEC</p>
                         </Col>
                     </Row>
                     <Row>
                         {advantages.map((event, index) =>
-                            <Col xl={20} key={index}>
+                            <Col xl={20} xs={{span:22, offset:1}} key={index}>
                                 <Title level={3} className='Title'>{event.key}</Title>
                                 <Col xl={20}>
                                     <p><CheckCircleOutlined className='Icon'/>{event.description}</p>

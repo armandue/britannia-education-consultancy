@@ -11,10 +11,10 @@ function BritanniaHomeCourse() {
   return (
     <div className='Course'>
         <Row>
-            <Col xl={3} xxl={5}></Col>
-            <Col span={19}>
+            <Col xl={3} xxl={5} xs={1}></Col>
+            <Col xl={19} xs={22}>
                 <Row>
-                    <Col span={8} className='Title'>
+                    <Col xl={8} xs={24} className='Title'>
                         <Row>
                             <Col span={7} className='Subtitle'>
                                 <p>线<br/>上<br/>课<br/>程</p>
@@ -38,7 +38,7 @@ function BritanniaHomeCourse() {
                     <Col xl={16} xxl={13} className='Display'>
                         <Row>
                             <Col span={1}></Col>
-                            <Col xl={11} xxl={8}>
+                            <Col xl={11} xxl={8} xs={0}>
                             <img className='CourseCase FirstLine' src={course1} alt='如何在硕士阶段规划Phd申请'/>
                             </Col>
                             <Col xl={11} xxl={8}>
@@ -48,7 +48,7 @@ function BritanniaHomeCourse() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col span={1}></Col>
+                            <Col xl={1}></Col>
                             <Col xl={11} xxl={8}>
                                 <img className='CourseCase' src={course2} alt='申请Phd时间节点与申请过程中的问题'/>
                             </Col>

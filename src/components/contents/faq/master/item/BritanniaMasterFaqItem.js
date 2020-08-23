@@ -14,7 +14,7 @@ function BritanniaMasterFaqItem(props) {
             </Col>
         </Row>
         <Row className='Answer'>
-            <Col offset={4} xl={18} className='Description'>
+            <Col xl={{span:18, offset:4}} xs={{span:22, offset:0}} className='Description'>
                 <p>{props.item.answer}</p>
             </Col>
         </Row>

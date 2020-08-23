@@ -32,16 +32,16 @@ function BritanniaHomeContact() {
   return (
     <div className='Contact'>
         <Row>
-            <Col span={24}>
+            <Col xl={24}>
                 <Row>
-                    <Col span={24} className='Title'>
+                    <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}} className='Title'>
                         <p>
                             联系我们
                         </p>
                     </Col>
                 </Row>
                 <Row>
-                    <Col span={24} className='Title'>
+                    <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}} className='Title'>
                         <p>
                             CONTACT US
                         </p>
@@ -50,8 +50,8 @@ function BritanniaHomeContact() {
             </Col>
         </Row>
         <Row className='Info'>
-            <Col span={5}></Col>
-            <Col span={9}>
+            <Col xl={5} xs={1}></Col>
+            <Col xl={9} xs={22}>
                 <p>英国，伦敦总部</p>
                 <p>Tel：+44 20 8694 0740</p>
                 <p><a href="mailto:info@becedu.co.uk">Email：info@becedu.co.uk</a></p>
@@ -60,7 +60,9 @@ function BritanniaHomeContact() {
                 <p>(添加客服微信二维码)</p>
                 <img className='QRImage' src={qrCode} alt='QR Code'/>
             </Col>
-            <Col span={5}>
+            <Col xl={0} xs={1}></Col>
+            <Col xl={0} xs={1}></Col>
+            <Col xl={5} xs={22}>
                 {contacts.map((contact, i) =>
                     <BritanniaHomeContactDetail key={i} detail={contact}/>
                 )}

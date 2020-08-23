@@ -85,39 +85,39 @@ function BritanniaAboutUs() {
     <div className='AboutUs'>
         <Content>
             <Row className='Company'>
-              <Col offset={4} span={16}>
+              <Col offset={4} xl={16}>
                 <Title level={1} className='Title'>巅峰英伦教育公司 <span className='Subtitle'>Britannia Education Consultancy Ltd.</span></Title>
               </Col>
             </Row>
             <Row>
-              <Col offset={3} span={13}>
+              <Col xl={{span:13,offset:3}} xs={{span:22, offset:1}}>
                 <p className='Description'>
                   <span className='Highlight'>BEC巅峰英伦</span>于2017年注册成立于伦敦，专注从事教育培训以及硕士、博士申请咨询等服务。公司采取“私人订制”、“多对一辅导”的模式，为计划留学的学生提供专业的留学咨询及培训服务。
                   我们坚持以优质的硕士申请与博士能力培养为中心，致力于推动留学服务质量“规范化”，注重在留学申请过程中各项能力的培养。
                 </p>
               </Col>
-              <Col offset={3} span={13}>
+              <Col xl={{span:13,offset:3}} xs={{span:22, offset:1}}>
                 <p className='Description'>
                   团队成员全部来自世界名校博士，旨在以“PhD”的要求为学生提供专业、优质的服务，自创立至今，全部学员申请学校成功率达95%以上。
                 </p>
               </Col>
-              <Col offset={3} span={13}>
+              <Col xl={{span:13,offset:3}} xs={{span:22, offset:1}}>
                 <p className='Description'>
                   BEC巅峰英伦将始终致力于推广先进的“标准化”教育理念，不仅是为了帮助学生进入理想的大学深造，更重要的是培养了学生不断适应海外教育的能力。
                 </p>
               </Col>
             </Row>
             <Row className='CoreAdvantage'>
-              <Col offset={3} span={16}>
+              <Col xl={{span:13,offset:3}} xs={{span:22, offset:1}}>
                 <Title level={3} className='Title'>核心优势 <span className='Subtitle'>Core Advantages</span></Title>
               </Col>
             </Row>
             { advantages.map((advantage, i) =>
               <Row className='Advantage' key={i}>
-                <Col offset={3} span={1}>
+                <Col xl={{span:1,offset:3}} xs={{span:2, offset:1}}>
                   <p className='Number'>{i + 1}</p>
                 </Col>
-                <Col span={12}>
+                <Col xl={12} xs={20}>
                   <p className='Description'>
                     {advantage}
                   </p>
@@ -125,26 +125,26 @@ function BritanniaAboutUs() {
               </Row>
             )}
             <Row className='Team'>
-              <Col offset={3} span={9}>
+              <Col xl={{span:9,offset:3}} xs={{span:23, offset:1}}>
                 <Row>
                   <Col>
                     <Title level={3} className='Title'>学生导师<span className='Subtitle'> Tutor介绍 </span></Title>
                   </Col>
                 </Row>
                 <Row>
-                  <Col span={20} className='WriterList'>
+                  <Col xl={20} className='WriterList'>
                     <Table dataSource={tutors} columns={tutor_columns} pagination={false} size="small"/>
                   </Col>
                 </Row>
               </Col>
-              <Col span={9}>
+              <Col xl={{span:9,offset:0}} xs={{span:23, offset:1}}>
                 <Row>
                   <Col>
                     <Title level={3} className='Title'>写手团队<span className='Subtitle'> Our Writers & Proofreaders’ Background </span></Title>
                   </Col>
                 </Row>
                 <Row>
-                  <Col span={20} className='WriterList'>
+                  <Col xl={20} className='WriterList'>
                     <Table dataSource={writers} columns={writer_columns} pagination={false} size="small"/>
                   </Col>
                 </Row>
