@@ -1,6 +1,6 @@
 import React from 'react';
 import './BritanniaHomeMaster.css';
-import { Row, Col } from 'antd';
+import { Row, Col, Divider } from 'antd';
 
 function BritanniaHomeMaster() {
   return (
@@ -96,6 +96,11 @@ function BritanniaHomeMaster() {
                         </Row>
                     </Col>
                 </Row>
+            </Col>
+        </Row>
+        <Row>
+            <Col span={16} offset={4}>
+                <Divider className="Divider"/>
             </Col>
         </Row>
     </div>

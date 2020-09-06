@@ -5,6 +5,11 @@
     background-color: #c91f44;
 }
 
+.BritanniaHomeTeam .TeamTitle {
+    color: #eef1ef;
+    margin-bottom: 1.5rem;
+}
+
 .BritanniaHomeTeam .Title {
     font-weight: bold;
     font-size: larger;

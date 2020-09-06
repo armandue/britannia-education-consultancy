@@ -1,15 +1,27 @@
 import React from 'react';
 import './BritanniaHomeTeam.css';
-import { Row, Col } from 'antd';
+import { Row, Col, Typography } from 'antd';
 
 import tan from '../../../../images/team/tan.p.williams.jpg';
 import xie from '../../../../images/team/xie.yaoshu.jpg';
 import cui from '../../../../images/team/cui.fan.jpg';
 import yan from '../../../../images/team/yan.yuxuan.jpg';
 
+const { Title } = Typography;
 function BritanniaHomeTeam() {
   return (
     <div className='BritanniaHomeTeam'>
+      <Row>
+          <Col span={24}>
+              <Row>
+                  <Col span={24}>
+                      <Title level={2} className='TeamTitle'>
+                          公司核心团队成员
+                      </Title>
+                  </Col>
+              </Row>
+          </Col>
+        </Row>
       <Row>
         <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}}>
           <img className='Head' src={tan} alt='CEO：Tan P Williams'/>

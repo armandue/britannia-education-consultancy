@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route } from "react-router-dom";
+import { BackTop } from 'antd';
 
 import './BritanniaContent.css';
 
@@ -17,6 +18,7 @@ function BritanniaContent() {
         <Route path="/phd" component={BritanniaPhd} />
         <Route path="/master" component={BritanniaMaster} />
         <Route path="/faq" component={BritanniaFaq} />
+        <BackTop />
     </div>
   );
 }

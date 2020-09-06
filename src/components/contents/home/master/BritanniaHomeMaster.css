@@ -13,6 +13,7 @@
 
 .Master .Steps {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .Master .Step {
@@ -39,6 +40,10 @@
     color: black;
     height: 3.7rem;
     font-size: 0.8rem;
+}
+
+.Master .Divider {
+    background-color: #012169;
 }
 
 @media only screen and (max-width: 576px) {

@@ -14,7 +14,7 @@ const contacts = [
     {
         title: '博士申请部运营主管',
         name: 'Jason Xie',
-        email: 'Jason.xie@becedu.co.uk',
+        email: 'jason.xie@becedu.co.uk',
     },
     {
         title: '硕士申请部运营主管',

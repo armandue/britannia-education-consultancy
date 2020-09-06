@@ -1,6 +1,6 @@
 import React from 'react';
 import './BritanniaHomePhd.css';
-import { Row, Col, List } from 'antd';
+import { Row, Col, List, Divider } from 'antd';
 import { CaretRightOutlined, CaretLeftOutlined, CaretDownOutlined } from '@ant-design/icons';
 
 const data = [
@@ -141,6 +141,11 @@ function BritanniaHomePhd() {
                     </List.Item>
                     )}
                 />
+            </Col>
+        </Row>
+        <Row>
+            <Col span={16} offset={4}>
+                <Divider className="Divider"/>
             </Col>
         </Row>
     </div>
