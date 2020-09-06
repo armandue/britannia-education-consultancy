@@ -11,11 +11,11 @@ function BritanniaHomeTeam() {
   return (
     <div className='BritanniaHomeTeam'>
       <Row>
-        <Col xl={24} xs={{span:22, offset:1}}>
+        <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}}>
           <img className='Head' src={tan} alt='CEO：Tan P Williams'/>
         </Col>
         <Col xl={9} xs={1}></Col>
-        <Col xl={6} xs={{span:22, offset:1}}>
+        <Col xl={{span:6, offset:0}} xs={{span:22, offset:1}}>
             <p className='Title'>CEO：Tan P Williams</p>
             <p className='Description'>博士毕业于考文垂大学艺术设计与教育，曾任职于考文垂大学“艺术与数码媒体科技”讲师，
                 BEC公司创始人，文书部主管，负责BEC文书部以及公司全面工作。</p>
@@ -25,7 +25,7 @@ function BritanniaHomeTeam() {
         <Col xl={2} xs={1}></Col>
         <Col xl={6} xs={22}>
             <Row>
-                <Col xl={24} xs={{span:22, offset:1}}>
+                <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}}>
                     <img className='Head' src={xie} alt='博士申请部运营主管：谢耀枢'/>
                 </Col>
                 <Col xl={3} xs={1}></Col>
@@ -37,9 +37,9 @@ function BritanniaHomeTeam() {
                 </Col>
             </Row>
         </Col>
-        <Col xl={8} xs={{span:22, offset:1}}>
+        <Col xl={{span:6, offset:1}} xs={{span:22, offset:1}}>
             <Row>
-                <Col xl={24} xs={{span:22, offset:1}}>
+                <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}}>
                     <img className='Head' src={cui} alt='硕士申请部运营主管：崔凡'/>
                 </Col>
                 <Col xl={3} xs={1}></Col>
@@ -51,9 +51,9 @@ function BritanniaHomeTeam() {
                 </Col>
             </Row>
         </Col>
-        <Col xl={6} xs={{span:22, offset:1}}>
+        <Col xl={{span:6, offset:1}} xs={{span:22, offset:1}}>
             <Row>
-                <Col xl={24} xs={{span:22, offset:1}}>
+                <Col xl={{span:24, offset:0}} xs={{span:22, offset:1}}>
                     <img className='Head' src={yan} alt='市场部运营主管：闫雨轩'/>
                 </Col>
                 <Col xl={3} xs={1}></Col>
